@@ -23,9 +23,9 @@ Raitha-Varta is an AI-powered agriculture advisory platform that delivers simple
 
 | Category | Technologies |
 |----------|-------------|
-| Frontend | React, Vite, TypeScript |
+| Frontend | kotlin, React, Vite, TypeScript |
 | Mobile | Capacitor Android |
-| Backend | Firebase |
+| Backend | Firebase ,Room database gor offline storage|
 | AI | Gemini API |
 | Build Tools | Android Studio, Gradle, Android SDK 34 |
 
