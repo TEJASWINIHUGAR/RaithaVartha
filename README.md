@@ -102,31 +102,3 @@ Real-time weather · Offline support · AI pest detection · Voice assistance ·
 ## Vision
 
 Raitha-Varta modernizes agricultural advisory by combining AI, multilingual support, and mobile technology — putting practical farming knowledge in every farmer's hands.
-# App Screenshots
-
-## Opening Page
-![Opening Page](screenshots/Openingpage.jpeg)
-
-## Login Page
-![Login Page](screenshots/Loginpage.jpeg)
-
-## Crops Page
-![Crops Page](screenshots/Cropspage.jpeg)
-
-## Crop Details
-![Crop Details](screenshots/cropdetails.jpeg)
-
-## AI Solution
-![AI Solution](screenshots/AIsolution.jpeg)
-
-## Tips Page
-![Tips Page](screenshots/Tipspage.jpeg)
-
-## Tips Page 2
-![Tips Page 2](screenshots/Tipspage2.jpeg)
-
-## Farmer Stories
-![Farmer Stories](screenshots/farmerstories.jpeg)
-
-## Story Page
-![Story Page](screenshots/story.jpeg)
