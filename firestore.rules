@@ -1,0 +1,32 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helpers
+    function isSignedIn() { return request.auth != null; }
+    function isOwner(uid) { return isSignedIn() && request.auth.uid == uid; }
+    function isValidId(id) { return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$'); }
+    
+    // Tips - Everyone can read
+    match /tips/{tipId} {
+      allow read: if true;
+      allow write: if false; 
+    }
+
+    // Users/Profiles - Owner only
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+    }
+
+    match /user_profiles/{userId} {
+      allow read, write: if true;
+    }
+
+    // Shared AI Advice - Everyone can read
+    match /shared_ai_advice/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

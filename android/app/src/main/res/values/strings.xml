@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Raitha Varta</string>
+    <string name="title_activity_main">Raitha Varta</string>
+    <string name="package_name">com.raithavarta.app</string>
+    <string name="custom_url_scheme">com.raithavarta.app</string>
+</resources>

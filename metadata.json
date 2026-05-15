@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Raitha Varta",
+  "description": "Flash-Card Agriculture Advisor app for Karnataka farmers with bilingual support and AI crop analysis.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}
